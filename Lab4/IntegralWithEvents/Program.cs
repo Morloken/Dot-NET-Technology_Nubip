@@ -45,7 +45,7 @@ namespace IntegralWithEvents
 
             Console.WriteLine("Варіант 9:\n");
 
-            FunctionDelegate func1 = x => 1 / Math.Exp(x);
+            FunctionDelegate func1 = x => 1 / Math.Exp(x);//лямбда вираз =>
             double int1 = CalculateIntegral(func1, a, b, rectangles);
             Console.WriteLine($"f(x) = 1/e^x: {int1:F6}");
 
